@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondofigmanegroyazul"
+    android:gravity="center"
+    tools:context=".All">
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="524dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignContent="stretch"
+            app:alignItems="stretch"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.081"
+            tools:ignore="MissingConstraints">
+
+
+            <ImageView
+                android:id="@+id/imageButtonAna15"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna16"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna17"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna18"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna19"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna20"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna21"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna22"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna23"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+            <ImageView
+                android:id="@+id/imageButtonAna24"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna25"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:clickable="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna26"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna27"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna28"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna29"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna30"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna31"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna32"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+            <ImageView
+                android:id="@+id/imageButtonAna33"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna34"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna35"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna36"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna37"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna38"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna39"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna40"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna49"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+            <ImageView
+                android:id="@+id/imageButtonAna50"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna41"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna42"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna43"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna44"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna45"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna46"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna47"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+            <ImageView
+                android:id="@+id/imageButtonAna48"
+                android:layout_width="87dp"
+                android:layout_height="137dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:src="@drawable/ana" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonBack3"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bordebotonesback"
+        android:text="Back"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.306"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

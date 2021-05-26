@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tank"
+    android:id="@+id/TeamFragment"
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/fondofigmanegroyazul">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="200dp"
+        android:layout_height="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        tools:ignore="MissingConstraints,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="131dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Cuando jugamos"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tankdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Hoy no puedo"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tankdef"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Por la noche si"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/healerdef"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Yo mañana no puedo"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/dpsdef"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Cuando querais"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tankdef"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Yo hoy si puedo"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dpsdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat7"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Yo quiero probar ana"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/healerdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat8"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="Ana no es meta"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tankdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat9"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="          Puede estar rota con genji"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dpsdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Chat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="          Genji tampoco es meta XD"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Fotochat9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tankdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="113dp"
+        android:layout_height="260dp"
+        android:background="@drawable/textoblanco"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="113dp"
+            android:layout_height="334dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Nombrejugador"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="                    P1"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dpsdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Nombrejugador2"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="                    P2"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/dpsdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Nombrejugador4"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="                    P3"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/healerdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Nombrejugador5"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="                    P4"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/healerdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Nombrejugador6"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/textoblanco"
+                    android:gravity="center"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="                    P5"
+                    android:textColor="#000000"
+                    tools:ignore="LabelFor,MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="46dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tankdef"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="111dp"
+        android:layout_height="51dp"
+        android:background="@drawable/textoblanco"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Nombrejugador7"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/textoblanco"
+                android:gravity="center"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:text="                 ME"
+                android:textColor="#000000"
+                tools:ignore="LabelFor,MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="79dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tankdef"
+                app:civ_border_color="#99000000"
+                app:civ_border_width="2dp" />
+
+        </FrameLayout>
+
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRegistrar"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.050000012"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textoblanco"
+            android:ems="10"
+            android:gravity="center"
+
+            android:inputType="textMultiLine"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/borderegistro"
+            android:gravity="center"
+            android:text="Send"
+            android:textColor="#000000" />
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="114dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bordedebotones"
+        android:text="Resultados"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <Button
+        android:id="@+id/buttonBack3"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bordebotonesback"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRegistrar"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.45"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

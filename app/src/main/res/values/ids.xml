@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="botonSiguiente" type="id" />
+    <item name="botonFinalizar" type="id" />
+    <item name="grupo" type="id" />
+</resources>

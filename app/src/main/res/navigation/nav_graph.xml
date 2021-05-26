@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu">
+
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.overwatch_def.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu_to_informacion"
+            app:destination="@id/informacion" />
+        <action
+            android:id="@+id/action_menu_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/informacion"
+        android:name="com.example.overwatch_def.Informacion"
+        android:label="fragment_informacion"
+        tools:layout="@layout/fragment_informacion" >
+        <action
+            android:id="@+id/action_informacion_to_DPS"
+            app:destination="@id/DPS" />
+        <action
+            android:id="@+id/action_informacion_to_tank"
+            app:destination="@id/tank" />
+        <action
+            android:id="@+id/action_informacion_to_all"
+            app:destination="@id/all" />
+        <action
+            android:id="@+id/action_informacion_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_informacion_to_all2"
+            app:destination="@id/all" />
+        <action
+            android:id="@+id/action_informacion_to_healerFragment"
+            app:destination="@id/healerFragment" />
+        <action
+            android:id="@+id/action_informacion_to_listaHeroesFragment"
+            app:destination="@id/listaHeroesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.overwatch_def.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_fragmentRegistrarse"
+            app:destination="@id/Registrarse" />
+        <action
+            android:id="@+id/action_login_to_Registrarse"
+            app:destination="@id/Registrarse" />
+        <action
+            android:id="@+id/action_login_to_informacion"
+            app:destination="@id/informacion" />
+        <action
+            android:id="@+id/action_login_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_login_to_buscarGrupo"
+            app:destination="@id/buscarGrupo" />
+    </fragment>
+    <fragment
+        android:id="@+id/Registrarse"
+        android:name="com.example.overwatch_def.FragmentRegistrarse"
+        android:label="fragment_registrarse"
+        tools:layout="@layout/fragment_registrarse" >
+    <action
+        android:id="@+id/action_Registrarse_to_login"
+        app:destination="@id/login" />
+        <action
+            android:id="@+id/action_Registrarse_to_buscarGrupo"
+            app:destination="@id/buscarGrupo" />
+    </fragment>
+    <fragment
+        android:id="@+id/DPS"
+        android:name="com.example.overwatch_def.DPS"
+        android:label="fragment_d_p_s"
+        tools:layout="@layout/fragment_d_p_s" >
+        <action
+            android:id="@+id/action_DPS_to_anaFragment"
+            app:destination="@id/anaFragment" />
+        <action
+            android:id="@+id/action_DPS_to_informacion"
+            app:destination="@id/informacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/tank"
+        android:name="com.example.overwatch_def.Tank"
+        android:label="fragment_tank"
+        tools:layout="@layout/fragment_tank" >
+        <action
+            android:id="@+id/action_tank_to_anaFragment"
+            app:destination="@id/anaFragment" />
+        <action
+            android:id="@+id/action_tank_to_informacion"
+            app:destination="@id/informacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/all"
+        android:name="com.example.overwatch_def.All"
+        android:label="fragment_all"
+        tools:layout="@layout/fragment_all" >
+        <action
+            android:id="@+id/action_all_to_anaFragment"
+            app:destination="@id/anaFragment" />
+        <action
+            android:id="@+id/action_all_to_informacion"
+            app:destination="@id/informacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/healerFragment"
+        android:name="com.example.overwatch_def.HealerFragment"
+        android:label="fragment_healer"
+        tools:layout="@layout/fragment_healer" >
+        <action
+            android:id="@+id/action_healerFragment_to_anaFragment"
+            app:destination="@id/anaFragment" />
+        <action
+            android:id="@+id/action_healerFragment_to_informacion"
+            app:destination="@id/informacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscarGrupo"
+        android:name="com.example.overwatch_def.BuscarGrupo"
+        android:label="fragment_buscar_grupo"
+        tools:layout="@layout/fragment_buscar_grupo" >
+
+        <action
+            android:id="@+id/action_buscarGrupo_to_login2"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_buscarGrupo_to_teamFragment2"
+            app:destination="@id/teamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.overwatch_def.Tank"
+        android:label="fragment_team"
+        tools:layout="@layout/fragment_team" >
+        <action
+            android:id="@+id/action_teamFragment_to_buscarGrupo"
+            app:destination="@id/buscarGrupo" />
+        <action
+            android:id="@+id/action_teamFragment_to_resultadosFragment"
+            app:destination="@id/resultadosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaFragment"
+        android:name="com.example.overwatch_def.AnaFragment"
+        android:label="fragment_ana"
+        tools:layout="@layout/fragment_ana" >
+        <action
+            android:id="@+id/action_anaFragment_to_informacion"
+            app:destination="@id/informacion" />
+        <action
+            android:id="@+id/action_anaFragment_to_historiaFragment"
+            app:destination="@id/historiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosFragment"
+        android:name="com.example.overwatch_def.ResultadosFragment"
+        android:label="fragment_resultados"
+        tools:layout="@layout/fragment_resultados" >
+        <action
+            android:id="@+id/action_resultadosFragment_to_teamFragment"
+            app:destination="@id/teamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historiaFragment"
+        android:name="com.example.overwatch_def.HistoriaFragment"
+        android:label="fragment_historia"
+        tools:layout="@layout/fragment_historia" >
+        <action
+            android:id="@+id/action_historiaFragment_to_anaFragment"
+            app:destination="@id/anaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaHeroesFragment"
+        android:name="com.example.overwatch_def.ListaHeroeFragment"
+        android:label="fragment_lista_heroes"
+        tools:layout="@layout/fragment_lista_heroes">
+        <action
+            android:id="@+id/action_listaHeroesFragment_to_insertarHeroesFragment"
+            app:destination="@id/insertarHeroesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertarHeroesFragment"
+        android:name="com.example.overwatch_def.InsertarheroesFragment"
+        android:label="fragment_insertar_heroes"
+        tools:layout="@layout/fragment_insertar_heroe" />
+
+</navigation>

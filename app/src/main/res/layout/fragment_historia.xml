@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondofigmanegroyazul"
+    tools:context=".HistoriaFragment">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="303dp"
+        android:layout_height="554dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignContent="stretch"
+            app:alignItems="stretch"
+            app:flexDirection="column"
+            app:flexWrap="wrap"
+            app:justifyContent="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.081"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ana, una de las fundadoras de Overwatch, usa sus habilidades y su experiencia para proteger su hogar y a todos aquellos cercanos a ella."
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="313dp" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La Crisis Ómnica estaba causando estragos en Egipto y las fuerzas de seguridad, mermadas y exhaustas, recurrían a la ayuda de los mejores francotiradores del país, entre los que se encontraba Ana Amari, considerada la mejor del mundo. Su puntería, unida a su capacidad para tomar decisiones y a sus instintos, la convertían en la candidata perfecta para unirse al equipo de Overwatch que acabó con la guerra."
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="313dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tras el éxito de su misión original, Ana ascendió al rango de capitana y sirvió durante muchos años como la segunda al mando del comandante Morrison. A pesar de esta enorme responsabilidad, Ana se negó a abandonar las operaciones de combate y siguió sirviendo en el campo de batalla hasta pasados los cincuenta, cuando, durante una misión de rescate de rehenes, se creyó que había muerto abatida por la agente de Talon conocida como «Widowmaker»."
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="313dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No obstante, Ana sobrevivió al encuentro, aunque quedó gravemente herida y perdió el ojo derecho en el proceso. Mientras se recuperaba, empezó a sentir el peso de toda una vida dedicada al combate, por lo que decidió permanecer muerta a ojos del mundo. Sin embargo, a medida que pasaba el tiempo, veía cómo su hogar sufría todo tipo de amenazas y se dio cuenta de que, en su interior, aún albergaba el deseo de proteger a aquellos que la rodeaban."
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="313dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Con un equipo «requisado» de los almacenes de Overwatch, Ana ha vuelto a aparecer ante el mundo, dispuesta a combatir a aquellos que amenazaban la seguridad y la estabilidad de la región y mantener así la paz."
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="313dp" />
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonBack3"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bordebotonesback"
+        android:text="Back"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.19"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

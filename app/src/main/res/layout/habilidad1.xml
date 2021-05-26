@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:ignore="MissingClass">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/textoblanco"
+        android:gravity="center"
+        android:text="GRANADA BIÓTICA
+Ana lanza una bomba biótica que inflige daño a los enemigos y cura a los aliados en una pequeña área de efecto. Durante un breve período de tiempo, los aliados afectados reciben sanación aumentada de todas las fuentes y los enemigos atrapados en la explosión no se pueden curar."
+        android:textColor="#000000" />
+
+
+
+</RelativeLayout>
